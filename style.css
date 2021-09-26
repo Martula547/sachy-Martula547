@@ -1,5 +1,10 @@
 body {
     font-family: sans-serif;
+    max-width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 25px;
+    padding-right: 25px;
 }
 h1 {
     font-family: sans-serif;
@@ -37,14 +42,15 @@ h2 {
 .cerny .jmenoainfo {
     text-align: right;
 }
+.hracipole {
+    border: 12px solid #392C16;
+    margin: 15px auto;
+    border-radius: 5px;
+}
 .sachovnice {
     background-image: url("obrazky/bonus/sachovnice.svg");
     background-size: 25%;
-    width: 550px;
-    height: 550px;
-    margin: 15px auto;
-    border: 12px solid #392C16;
-    border-radius: 5px;
+    aspect-ratio: 1/1;
     display: grid;
     grid-template-columns: repeat(8, 12.5%);
     grid-template-rows: repeat(8, 12.5%);
@@ -89,4 +95,19 @@ h2 {
 .sachovnice > :nth-child(1) {
     grid-row-start: 1;
     grid-column-start: 5;
+}
+.vysledek {
+    text-align: center;
+    margin: 35px 40px 20px 40px;
+    font-size: 21px;
+}
+button {
+    display: block;
+    margin: 0 auto;
+    width: 110px;
+    height: 30px;
+    background-color: #4C7DC0;
+    border: 1px solid #074189;
+    border-radius: 2px;
+    color: white;
 }
