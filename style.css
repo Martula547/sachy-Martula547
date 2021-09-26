@@ -1,0 +1,54 @@
+body {
+    font-family: sans-serif;
+}
+h1 {
+    font-family: sans-serif;
+    font-size: 48px;
+    text-align:center;
+}
+.hraci {
+    display: flex;
+    justify-content: space-between;
+}
+
+.hraci > div {
+    display: flex;
+}
+
+.bily img,
+.cerny img {
+    width: 60px;
+    height: 60px;
+    object-fit: cover;
+    border-radius: 5px
+}
+h2 {
+    margin: 0;
+    padding: 10px 10px 0px 10px;
+    font-size: 20px;
+}
+.jmenoainfo p {
+    margin: 0;
+    padding: 2px 10px 0px 10px;
+}
+.cerny {
+    flex-direction: row-reverse;
+}
+.cerny .jmenoainfo {
+    text-align: right;
+}
+.sachovnice {
+    background-image: url("obrazky/bonus/sachovnice.svg");
+    background-size: 25%;
+    width: 550px;
+    height: 550px;
+    margin: 15px auto;
+    border: 12px solid #392C16;
+    border-radius: 5px;
+}
+.sachovnice img {
+    width: 12.5%;
+    height: 12.5%;
+    border: 5px solid red;
+    display: block;
+}

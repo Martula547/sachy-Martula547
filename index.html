@@ -6,6 +6,7 @@
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<title>Šachy</title>
+	<link rel="stylesheet" href="style.css">
 </head>
 
 <body>
@@ -13,16 +14,20 @@
 	<section class="hraci">
 		<div class="bily">
 			<img src="obrazky/hraci/honza.jpg" alt="Honza">
-			<h2>Honza</h2>
-			<p>bílý hráč</p>
+			<div class="jmenoainfo">
+				<h2>Honza</h2>
+				<p>bílý hráč</p>
+			</div>
 		</div>
 		<div class="cerny">
 			<img src="obrazky/hraci/adela.jpg" alt="Adéla">
-			<h2>Adéla</h2>
-			<p>černý hráč</p>
+			<div class="jmenoainfo">
+				<h2>Adéla</h2>
+				<p>černý hráč</p>
+			</div>
 		</div>
 	</section>
-	<div>
+	<div class="sachovnice">
 		<img src="./obrazky/figurky/strelec-cerna.svg" alt="černý střelec">
 		<img src="./obrazky/figurky/pesec-cerna.svg" alt="černý pěšec">
 		<img src="./obrazky/figurky/pesec-cerna.svg" alt="černý pěšec">
@@ -33,9 +38,8 @@
 		<img src="./obrazky/figurky/vez-cerna.svg" alt="černá věž">
 		<img src="./obrazky/figurky/kral-bila.svg" alt="bílý král">
 	</div>
-
-
-	
+	<p>Vyhrál černý!</p>	
+	<button>Hrát znovu</button>
 </body>
 
 </html>
